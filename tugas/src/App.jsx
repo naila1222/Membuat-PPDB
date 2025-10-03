@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import LandingPage from './component/LandingPage'
-import './App.css'
 import { Route, Router } from 'react-router-dom'
 
 function App() {
