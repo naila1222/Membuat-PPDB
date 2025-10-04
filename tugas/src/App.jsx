@@ -1,17 +1,15 @@
 import { useState } from 'react'
 import LandingPage from './component/LandingPage'
-import { Route, Router } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom'
 
-function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Route>
-        <Route path='/' element={<LandingPage/>}></Route>
-      </Route>
-    </>
+  
+    <Routes>
+      <Route path='/' element={<LandingPage/>}/>
+    </Routes>
+
   )
-}
+
 
 export default App
